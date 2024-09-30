@@ -88,11 +88,11 @@ Got all that? Great! To get started, run `starklings watch` in order to get the
 first exercise. Make sure to have your editor open!
 ```
 
-## VSCode extension & language server
+### VSCode extension & language server
 
 In order to have syntax highlighting and language server features, you will need to install the Cairo Language Server. The instructions available in the [Cairo repository](https://github.com/starkware-libs/cairo/tree/main/vscode-cairo)
 
-## Inspiration
+### Inspiration
 
 -   [Rustlings](https://github.com/rust-lang/rustlings), starklings is forked from Rustlings. Thanks to all the original [authors and contributors](https://github.com/rust-lang/rustlings)
 
@@ -110,11 +110,11 @@ cargo test cairo
 cargo test
 ```
 
-## Contributing
+### Contributing
 
 Thanks for your interest in the project. You can fork the repo, create a branch with a descriptive name (maybe the issue number and a word or two to describe it) and submit a pull request.
 
-### Adding new exercises
+#### Adding new exercises
 
 #### Here's what an exercise looks like,
 1. An exercise is pretty much a single well commented Cairo file.
@@ -123,7 +123,7 @@ Thanks for your interest in the project. You can fork the repo, create a branch 
 4. When introducing a concept for the first time, try to start minimally.
 5. Subsequent exercises for the same concept can grow in complexity.
 
-#### Contributing with a new exercise
+##### Contributing with a new exercise
 1. Add the exercise file in the `./exercises` directory.
 2. Insert information about the exercise in `./info.toml` file. For example
     ```toml
@@ -142,7 +142,7 @@ cargo run -r --bin starklings run new_exercise
 4. Check that the [tests](#testing) pass.
 5. Send your PR!
 
-### Updating Rust logic/Cairo version
+#### Updating Rust logic/Cairo version
 
 1. [Test](#testing) your changes.
 2. Make sure you have solutions to all the exercises in `./solutions` directory.
